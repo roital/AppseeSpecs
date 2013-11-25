@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, 5.0
   s.requires_arc = true
   s.frameworks     = 'Appsee', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'QuartzCore', 'SystemConfiguration'
-  s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Appsee"' }
+  s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Appsee/Appsee"' }
   s.preserve_paths = 'Appsee/Appsee.framework'
   s.source_files   = 'Appsee/Appsee.framework/Versions/A/Headers/*.{h}'  
 end
