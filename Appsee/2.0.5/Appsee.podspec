@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Appsee SDK for UIKit applications'
   s.homepage = 'http://www.appsee.com'
   s.author   = { 'Appsee' => 'contact@appsee.com' }
-  s.source   = { :git => "https://github.com/roital/AppseePods.git", :tag => "2.0.5" }
+  s.source   = { :http => 'http://www.appsee.com/sdk/appsee_ios_2.05.zip' }
   s.platform = :ios, 5.0
   s.requires_arc = true
   s.frameworks     = 'Appsee', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'QuartzCore', 'SystemConfiguration'
